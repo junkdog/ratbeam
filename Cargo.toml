@@ -1,0 +1,21 @@
+[package]
+name = "ratbeam"
+version = "0.1.0"
+edition = "2024"
+description = "A ratatui backend using beamterm-core for rendering"
+license = "MIT"
+authors = ["Adrian Papari <junkdog@angelhill.net>"]
+repository = "https://github.com/junkdog/ratbeam"
+homepage = "https://github.com/junkdog/ratbeam"
+keywords = ["terminal", "ratatui", "backend", "opengl", "gpu"]
+categories = ["graphics", "rendering"]
+
+[dependencies]
+beamterm-core = { path = "../beamterm/beamterm-core" }
+beamterm-data = { path = "../beamterm/beamterm-data" }
+ratatui = "0.30.0"
+glow = "0.16"
+thiserror = "2.0"
+
+[workspace]
+members = ["examples/demo"]

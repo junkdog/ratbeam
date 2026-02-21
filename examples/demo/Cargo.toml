@@ -1,0 +1,16 @@
+[package]
+name = "demo"
+version = "0.1.0"
+edition = "2024"
+publish = false
+
+[dependencies]
+ratbeam = { path = "../.." }
+beamterm-core = { path = "../../../beamterm/beamterm-core" }
+glow = "0.16"
+glutin = "0.32"
+winit = "0.30"
+glutin-winit = "0.5"
+raw-window-handle = "0.6"
+ratatui = "0.30.0"
+tachyonfx = "0.24"
