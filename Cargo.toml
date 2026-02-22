@@ -19,3 +19,9 @@ thiserror = "2.0"
 
 [workspace]
 members = ["examples/demo", "examples/wave-interference"]
+
+[profile.dev.package."demo"]
+opt-level = 2
+
+[profile.dev.package."wave-interference"]
+opt-level = 2
