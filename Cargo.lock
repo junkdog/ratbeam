@@ -139,6 +139,7 @@ checksum = "72b3254f16251a8381aa12e40e3c4d2f0199f8c6508fbecb9d91f575e0fbb8c6"
 [[package]]
 name = "beamterm-core"
 version = "0.15.0"
+source = "git+https://github.com/junkdog/beamterm#0dbcb96bd259b49746712ed233bb8e0ae6a078f3"
 dependencies = [
  "beamterm-data",
  "bitflags 2.11.0",
@@ -154,6 +155,7 @@ dependencies = [
 [[package]]
 name = "beamterm-data"
 version = "0.15.0"
+source = "git+https://github.com/junkdog/beamterm#0dbcb96bd259b49746712ed233bb8e0ae6a078f3"
 dependencies = [
  "compact_str",
  "miniz_oxide",
@@ -2773,6 +2775,21 @@ dependencies = [
  "hashbrown 0.15.5",
  "indexmap",
  "semver",
+]
+
+[[package]]
+name = "wave-interference"
+version = "0.1.0"
+dependencies = [
+ "beamterm-core",
+ "glow",
+ "glutin",
+ "glutin-winit",
+ "ratatui",
+ "ratbeam",
+ "raw-window-handle",
+ "tachyonfx",
+ "winit",
 ]
 
 [[package]]

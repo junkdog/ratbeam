@@ -11,11 +11,11 @@ keywords = ["terminal", "ratatui", "backend", "opengl", "gpu"]
 categories = ["graphics", "rendering"]
 
 [dependencies]
-beamterm-core = { path = "../beamterm/beamterm-core" }
-beamterm-data = { path = "../beamterm/beamterm-data" }
+beamterm-core = { git = "https://github.com/junkdog/beamterm" }
+beamterm-data = { git = "https://github.com/junkdog/beamterm" }
 ratatui = "0.30.0"
 glow = "0.16"
 thiserror = "2.0"
 
 [workspace]
-members = ["examples/demo"]
+members = ["examples/demo", "examples/wave-interference"]
