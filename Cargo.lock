@@ -138,8 +138,9 @@ checksum = "72b3254f16251a8381aa12e40e3c4d2f0199f8c6508fbecb9d91f575e0fbb8c6"
 
 [[package]]
 name = "beamterm-core"
-version = "0.15.0"
-source = "git+https://github.com/junkdog/beamterm#0dbcb96bd259b49746712ed233bb8e0ae6a078f3"
+version = "0.16.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "dd35ff2f9ffbbacf0a201cc76251d7489420d73f30e0efa34fe6f2ff640ba9fb"
 dependencies = [
  "beamterm-data",
  "bitflags 2.11.0",
@@ -154,11 +155,13 @@ dependencies = [
 
 [[package]]
 name = "beamterm-data"
-version = "0.15.0"
-source = "git+https://github.com/junkdog/beamterm#0dbcb96bd259b49746712ed233bb8e0ae6a078f3"
+version = "0.16.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "8b0a5d2b82a5e8cfe1495e63a677d4b5a973ecc88b156034bdec9023bd0853f2"
 dependencies = [
  "compact_str",
  "miniz_oxide",
+ "thiserror 2.0.18",
 ]
 
 [[package]]

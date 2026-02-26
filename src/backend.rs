@@ -88,7 +88,7 @@ impl Backend for BeamtermBackend {
             .cycle()
             .take(cell_count);
 
-        self.grid.update_cells(&self.gl, cells)?;
+        self.grid.update_cells(cells)?;
         Ok(())
     }
 

@@ -6,7 +6,7 @@ publish = false
 
 [dependencies]
 ratbeam = { path = "../.." }
-beamterm-core = { git = "https://github.com/junkdog/beamterm" }
+beamterm-core = "0.16.0"
 glow = "0.16"
 glutin = "0.32"
 winit = "0.30"

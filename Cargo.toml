@@ -11,8 +11,8 @@ keywords = ["terminal", "ratatui", "backend", "opengl", "gpu"]
 categories = ["graphics", "rendering"]
 
 [dependencies]
-beamterm-core = { git = "https://github.com/junkdog/beamterm" }
-beamterm-data = { git = "https://github.com/junkdog/beamterm" }
+beamterm-core = "0.16.0"
+beamterm-data = "0.16.0"
 ratatui = "0.30.0"
 glow = "0.16"
 thiserror = "2.0"
