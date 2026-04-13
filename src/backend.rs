@@ -100,16 +100,16 @@ impl Backend for BeamtermBackend {
     }
 
     fn size(&self) -> Result<Size, Self::Error> {
-        let (w, h) = self.grid.terminal_size();
-        Ok(Size::new(w, h))
+        let size = self.grid.terminal_size();
+        Ok(Size::new(size.cols, size.rows))
     }
 
     fn window_size(&mut self) -> Result<WindowSize, Self::Error> {
-        let (cols, rows) = self.grid.terminal_size();
+        let size = self.grid.terminal_size();
         let (w, h) = self.grid.canvas_size();
 
         Ok(WindowSize {
-            columns_rows: Size::new(cols, rows),
+            columns_rows: Size::new(size.cols, size.rows),
             pixels: Size::new(w as _, h as _),
         })
     }

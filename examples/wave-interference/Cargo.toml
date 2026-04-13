@@ -6,11 +6,11 @@ publish = false
 
 [dependencies]
 ratbeam = { path = "../.." }
-beamterm-core = "0.16.0"
-glow = "0.16"
-glutin = "0.32"
-winit = "0.30"
-glutin-winit = "0.5"
-raw-window-handle = "0.6"
+glow = "0.17.0"
+tachyonfx = "0.25.0"
 ratatui = "0.30.0"
-tachyonfx = "0.24"
+raw-window-handle = "0.6.2"
+glutin-winit = "0.5.0"
+winit = "0.30.13"
+glutin = "0.32.3"
+beamterm-core = "1.0.0"
